@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(147, 224, 248);
+    font-family: Helvetica;
+}
+
+li{
+    border: 1px pink solid;
+    color: darkcyan;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: darkcyan;
+}
+
+table, th, td{
+    border: 2px pink solid;
+}
+
+img{
+    width: 300px;
+}

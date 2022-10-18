@@ -1,0 +1,26 @@
+.blue{
+    background-color: blue;
+    height: 10px;
+    width: 15%;
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+.purple{
+    background-color: purple;
+    height: 40px;
+    width: 15%;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.green{
+    background-color: green;
+    height: 100px;
+    width: 15%;
+    position: relative;
+    left: 250px;
+    top: 75px;
+}

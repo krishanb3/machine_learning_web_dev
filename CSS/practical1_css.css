@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+    background-color: green;
+}
+
+p{
+    background-color: blue;
+    color: yellow;
+}
+
+ol{
+    border: 3px green solid;
+    background-color: pink;
+    color: red;
+}
+
+img{
+    border: 6px pink solid;
+    width: 30%;
+    height: 30%;
+}
+
+table, td, th{
+    border: 3px green solid;
+}
+
+body{
+    background-color: orange;
+}

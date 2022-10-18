@@ -1,0 +1,84 @@
+.heightWidthTest{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+
+.backgroundColour{
+    background-color: red;
+}
+
+p{
+    background-color: pink;
+    font-size: x-large;
+    line-height: 40px;
+    text-indent: 80px;
+    font-family: cursive;
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+}
+ol{
+    background-color: black;
+    color: white;
+    border: 3px dotted #00FFFF;
+}
+body{
+    background-color: orange;
+}
+
+.smImage{
+    width: 30%;
+}
+
+.lgImage{
+    width: 50%;
+}
+
+#tutorialSize{
+    width: 40%;
+    border: 4px green solid;
+}
+
+.colorGreen{
+    background-color: greenyellow;
+}
+
+.posStatic{
+    position: static;
+    border: 3px solid green;
+    height: 400px;
+}
+
+.posRelative{
+    position: relative;
+    left: 100px;
+    width: 200px;
+    border: 3px solid blue;
+}
+/* .posFixed{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    border: 3px solid pink;
+} */
+.posAbsolute{
+    position: absolute;
+    right: 10px;
+    width: 90px;
+    border: 3px solid yellow;
+}
+
+.floatTest{
+    float: right;
+}
+
+.marginTest{
+    border: 5px solid green;
+    padding: 100px;
+    margin-left: 50px;
+}

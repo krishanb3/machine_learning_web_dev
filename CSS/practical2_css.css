@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(60, 68, 75);
+}
+h1{
+    text-align: center;
+    font-family: Helvetica;
+    color: rgb(175, 116, 116);
+}
+.bg2{
+    background-color: bisque;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 250px;
+}
+.img1{
+    position: absolute;
+    left: 10%;
+    bottom: 15%
+}
+.img2{
+    position: absolute;
+    right: 25%;
+    bottom: 15%
+}
+.footer{
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: bisque;
+    width: 40%
+}

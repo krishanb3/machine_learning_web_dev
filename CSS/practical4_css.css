@@ -1,0 +1,15 @@
+h1{
+    border: 15px blue solid;
+    border-radius: 25px;
+    text-align: center;
+}
+.welcome{
+    background-color: rgb(253, 253, 168);
+    height: 150px;
+    margin-bottom: 20px;
+}
+.welcomeText{
+    position: relative;
+    left: 15%;
+    top: 7%;
+}
