@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(227, 252, 190);
+}
+
 h1{
     border: 15px blue solid;
     border-radius: 25px;
@@ -12,4 +16,44 @@ h1{
     position: relative;
     left: 15%;
     top: 7%;
+}
+.artwork{
+    border: 2px orange solid;
+}
+
+.tall{
+    height: 200px;
+    width: 150px;
+}
+.short{
+    height:150px;
+    width: 150px;
+}
+.fixed{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgb(241, 116, 116);
+    height: 50px;
+}
+.shop_visit{
+    position: relative;
+    bottom: -25%;
+}
+.warning{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: blue;
+    height: 150px;
+    width: 175px;
+}
+.warning_text{
+    text-align: center;
+    padding-top: 65px;
+}
+.copyright{
+    width: 10%;
+    background-color: yellow;
 }

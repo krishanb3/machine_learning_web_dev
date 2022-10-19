@@ -1,0 +1,20 @@
+.body{
+    background-color: rgb(212, 212, 255);
+}
+.navbar_ul{
+    list-style-type: none;
+    background-color: rgb(68, 67, 67);
+    overflow: hidden;
+}
+.navbar_cell{
+    float:left;
+}
+.navbar_buttons:link{
+    text-decoration: none;
+    padding: 13px;
+    color: white;
+    display: block;
+}
+.navbar_buttons:hover{
+    background-color: black;
+}
