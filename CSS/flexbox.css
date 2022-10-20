@@ -1,0 +1,32 @@
+.container_1{
+  /* Causes container to be a flexbox */
+  display:flex; 
+  /* Boxes will be the height they need to be to fit text, but will align at the top, default is stretch, center will be flex-middle, flex-end will be bottom */
+  align-items: flex-start;
+  /* This causes the boxes to stack vertically, by default it is set to row */
+  /* flex-direction: column; */
+  /* Changes the horizontal stretch behaviour, flex-start by default, flex-end is the right side of the page, space-bewteen distributes them evenly with spaces between, space-around adds margin on left and right side with space between */
+  justify-content: space-between;
+  
+}
+.container_1 div{
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+.box_1{
+  /* Denotes size of the box */
+  /* flex: 2; */
+  /* Denotes position in the row */
+  /* order: 2; */
+  /* Use in place of width */
+  /* flex-basis: 100%; */
+  flex-wrap: wrap;
+}
+.box_2{
+  /* flex: 1;
+  order: 1; */
+}
+.box_3{
+  /* flex: 1;
+  order: 3; */
+}
