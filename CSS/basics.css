@@ -82,3 +82,61 @@ body{
     padding: 100px;
     margin-left: 50px;
 }
+
+a.test_link1:hover{
+    background-color: red;
+}
+a.test_link2:active{
+    background-color: red;
+}
+a.test_link3:link{
+    background-color: red;
+    text-decoration: none;
+}
+a.test_link4:visited{
+    background-color: red;
+}
+a.link2button:link{
+    text-decoration: none;
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 25px;
+}
+a.link2button:hover{
+    background-color: green;    
+}
+table, th, td{
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+th{
+    background-color: white;
+    padding:20px;
+}
+tr{
+    background-color: #d2fcfc;
+}
+tr:hover{
+    background-color: white;
+}
+div.test_parentchild > p{
+    background-color: #00FFFF;
+}
+span.block{
+    background-color: #00FFFF;
+    display:block;
+}
+span.inline-block{
+    background-color: yellow;
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+}
+span.inline{
+    background-color: orange;
+    display:inline;
+}
+span.none{
+    background-color: red;
+    display:none;
+}
