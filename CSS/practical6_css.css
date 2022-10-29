@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(219, 243, 161);
+}
+.title{
+    border: 8px blue solid;
+    border-radius: 25px;
+    text-align: center;
+}
+.welcome{
+    background-color: rgb(255, 255, 206);
+    height: 100px;
+}
+.welcome_text{
+    position: relative;
+    left: 15%;
+}
+.images{
+    border: 4px orange solid;
+    width: 890px;
+}
+img{
+    height: 180px;
+    filter: grayscale();
+}
+img:hover{
+    filter: none;
+}
