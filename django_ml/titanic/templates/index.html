@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test ML Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Home Page</h1>
+        <h3>Would you survive? Get your Titanic prediction here!</h3>
+        <br>
+        <p>Enter in your details to see if you would have survived.</p>
+        <p>We will let you know how you'd do.</p>
+        <br>
+        <form action="{% url 'results' %}" method="post">
+            {% csrf_token %}
+            <p>Pclass</p>
+            <input type="number", name="pclass">
+            <p>Sex</p>
+            <input type="number", name="sex">
+            <p>Age</p>
+            <input type="number", name="age">
+            <p>Sibsp</p>
+            <input type="number", name="sibsp">
+            <p>Parents/Children</p>
+            <input type="number", name="parch">
+            <p>Fare</p>
+            <input type="number", name="fare">
+            <p>Embarked</p>
+            <input type="number", name="embarked">
+            <input type="submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'main.css' %}">
+    </head>
+    <body>
+        TEST PAGE
+        <br>
+        <a href="{% url 'contact' %}">Click here to contact me</a>
+        <br>
+        <button onclick="buttonFunc()">Click me</button>
+        <br>
+        <form action="{% url 'contact' %}" method="post">
+            {% csrf_token %}
+            <input type="text" name="user_input">
+            <input type="submit" value="click me">
+        </form>
+        <br>
+        <img src="{% static 'images/K.jpg' %}" alt="">
+        <script type="text/javascript" src="{% static 'main.js' %}"></script>
+    </body>
+</html>
